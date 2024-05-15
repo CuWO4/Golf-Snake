@@ -16,11 +16,15 @@ To create a Snake program with as few lines of code as possible, adhering to the
 
 * **Movement Handling**: Recording of the snake's body position; updating of the snake's body position after movement.
 
-* **Food Handling**: Properly increasing the snake's length upon eating food; generating new food; ensuring new food does not appear on the snake's body.
+* **Food Handling**: Properly increasing the snake's length upon eating food; generating new food randomly; ensuring new food does not appear on the snake's body.
 
 * **Failure Handling**: Detection of failure upon snake collision with walls or itself, leading to program termination.
 
 * **Output Handling**: Generation of a visual interface on the console; see [Sample](#Sample) for the interface layout.
+
+* **Frame Length**: Each frame should not be shorter than 100ms.
+
+* **Library Usage**: Allowed to use the standard library and platform-specific libraries (e.g., `windows.h` for Windows and `unistd.h` for Linux). Allowed to include `-include` in compile options instead of preprocessing commands. Not allowed to include your own libraries.
 
 * **Stability**: Prevention of program crashes under any circumstance.
 
